@@ -1,3 +1,5 @@
+
+
 h1 {
     font-size: 55px;
     letter-spacing: 5px;
@@ -18,14 +20,15 @@ h3 {
       border: 5px solid white;
       width: 500px;
       align-content: center;
-      margin-left: 430px;
+      margin-left: 700px;
       margin-bottom: 30px;
       background-color: #443e3e;
       border-radius: 15px;
+      cursor: pointer;
       
   }
 
-  img {
+  .pic {
       width: 800px;
       border-radius: 15px;
       margin-bottom: 30px;

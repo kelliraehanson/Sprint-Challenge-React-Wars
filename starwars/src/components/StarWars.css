@@ -1,0 +1,25 @@
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 5px white;
+    text-decoration: underline;
+}
+  
+h3 {
+    color: white;
+    text-shadow: 1px 1px 5px #fff;
+  }
+  
+  .charInfo{
+      border: 5px solid white;
+      width: 500px;
+      align-content: center;
+      margin-left: 430px;
+      margin-bottom: 30px;
+      background-color: #443e3e;
+      border-radius: 15px;
+      
+  }

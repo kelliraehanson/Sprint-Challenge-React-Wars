@@ -14,6 +14,7 @@ const Character = props => {
         <h3>&middot;&nbsp;HAIR COLOR: {props.character.hair_color}</h3>
         <h3>&middot;&nbsp;SKIN COLOR: {props.character.skin_color}</h3>
         <h3>&middot;&nbsp;MASS: {props.character.mass}</h3>
+        <img src={props.character.homeworld} alt="Homeworld" />
         </div>
 
     );

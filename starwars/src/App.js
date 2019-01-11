@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import StarwarsList from './components/StarwarsList';
 
 class App extends Component {
   constructor() {
@@ -32,7 +33,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="Header">React Wars</h1>
+        <h1 className="Header">React Wars!</h1>
+
+        <img className="pic" src="https://starwarsblog.starwars.com/wp-content/uploads/2015/10/tfa_poster_wide_header-1536x864-959818851016.jpg" alt="starwars" id="pic">
+        </img>
+
+        <StarwarsList banana={this.state.starwarsChars} />
+      
       </div>
     );
   }
